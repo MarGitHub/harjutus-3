@@ -58,7 +58,9 @@ echo ($variable . $variable2);
 	$fullName = $firstName.$lastName; 
 	echo $fullName;
 	?>
-	
+<br>
+	<?php $test = "Testmime";
+	echo "$test kas interpolatsioon töötab"; ?>
 	
 
 
